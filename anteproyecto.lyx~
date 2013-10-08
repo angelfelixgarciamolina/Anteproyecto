@@ -4,8 +4,17 @@
 \begin_header
 \textclass article
 \use_default_options true
+\begin_modules
+customHeadersFooters
+linguistics
+fixltx2e
+initials
+hanging
+endnotes
+foottoend
+\end_modules
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -25,9 +34,22 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\use_hyperref false
-\papersize default
-\use_geometry false
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Sistemas de Información Geográfica y su aplicabilidad en Geografía "
+\pdf_author "Angel Felix Garcia Molina"
+\pdf_subject "Anteproyecto de Trabajo Especial de Grado"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -42,6 +64,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2.54cm
+\topmargin 2.54cm
+\rightmargin 2.54cm
+\bottommargin 2.54cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -49,7 +75,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle fancy
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -59,177 +85,244 @@
 
 \begin_body
 
-\begin_layout Standard
-Universidad de Los Andes
+\begin_layout Title
+Anteproyecto de Trabajo Especial de Grado - Sistemas de Información Geográfica
+ y su Aplicabilidad en Geografía 
+\end_layout
+
+\begin_layout Author
+Br.
+ Ángel Félix García Molina
+\end_layout
+
+\begin_layout Right Header
+Br.
+ Ángel Félix García Molina
+\end_layout
+
+\begin_layout Left Header
+\paragraph_spacing onehalf
+Sistemas de Información Geográfica y su Aplicabilidad en Geografía
+\end_layout
+
+\begin_layout Section*
+Palabras clave 
 \end_layout
 
 \begin_layout Standard
-Facultad de Ciencias Forestales y Ambientales
+\paragraph_spacing double
+\align block
+Sistemas, Información Geográfica, Cartografía Digital, Geomática.
+\end_layout
+
+\begin_layout Section*
+\paragraph_spacing onehalf
+Línea de investigación
 \end_layout
 
 \begin_layout Standard
-Escuela de De Gografía
+\paragraph_spacing double
+\align block
+Nuestra linea de investigación es fundamentalmente documental a fin de analizar
+ los distintos aspectos que rodean, desde el punto de vista conceptual,
+ los sistemas de información geográfico y de como estos se presentan como
+ una herramienta primordial a la hora de manejar información espacial, en
+ este sentido los SIG contienen un profundo bagaje que emana de combinación
+ de varias ciencias tales como la cartografía, la informática y las mima
+ geografía.
 \end_layout
 
 \begin_layout Standard
-Anteproyecto de Trabajo Especial de Grado
+\paragraph_spacing double
+\align block
+En este sentido compilaremos las bases teóricas de las cuales parten los
+ principios en los que se sustentan a fin de darle un marco referencial
+ preciso que funcione de soporte y que además nos esclarezca el rol y la
+ relación de la geografía con tan sustancioso desarrollo tecnológico.
+\end_layout
+
+\begin_layout Section*
+Tutores
 \end_layout
 
 \begin_layout Standard
-1.
- NOMBRE DEL ALUMNO (S)
+Ing.
+ Nelly García
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tutora principal: Profesora de la cátedra de Programación Digital de la
+ Escuela de Geografía
+\end_layout
+
+\end_inset
+
+, Geog.
+ Juan Carlos Velásquez
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tutor Suplente: Profesor de la cátedra de Metodología de Investigación
+\end_layout
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
-Ángel Félix García Molina
+\paragraph_spacing single
+\align block
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Planteamiento del Problema.
 \end_layout
 
 \begin_layout Standard
-2.
- TÍTULO DEL TRABAJO
+\paragraph_spacing double
+\align block
+El uso de las herramientas que definen un sistema de información geográfico
+ permiten manejar la información geoespacial de manera eficaz, en este sentido
+ agiliza la toma de decisiones para la planificación, que uno de los pilares
+ fundamentales que derivan de toda investigación geográfica.
+ El manejo eficiente de una gran cantidad datos espaciales solo es posible
+ a través de un SIG ya que esto deriva en la generación de información que
+ nos permitirá un mejor y mayor desempeño a la hora de presentar resultados
+ de la actividades derivadas de la investigación geográfica.
+ 
+\end_layout
+
+\begin_layout Section
+Preguntas de Investigación.
 \end_layout
 
 \begin_layout Standard
-Sistemas de Información Geográfica y su aplicabilidad en Geografía
+\paragraph_spacing double
+\align block
+Los siguientes cuestionamientos se establecen con el fin de dar a la investigaci
+ón una ruta que permita seguir con claridad el proceso de investigación
+ que nos planteamos.
+ En este sentido no pretende ser un alfa y omega para este desarrollo sin
+ embargo se presentan como una guía necesaria para la continuidad y direccionali
+dad requeridos para que el flujo del contenido se presente con claridad
+ y coherencia.
+ 
+\end_layout
+
+\begin_layout Subsection
+¿Cuáles son los aportes que realiza la geografía, a través de la cartografía,
+ a la construcción de los sistemas de información geográficos?.
+\end_layout
+
+\begin_layout Subsection
+¿En qué corriente de la cartografía que se sustentan los Sistemas de Información
+ Geográficos?.
+\end_layout
+
+\begin_layout Subsection
+¿Cuál es papel que juegan los SIG como herramientas para el manejo de la
+ información espacial dentro de la investigación geográfica?.
+ 
+\end_layout
+
+\begin_layout Subsection
+¿Cuáles son los paradigmas de la geomática como ciencia auxiliar de la geografía
+?
+\end_layout
+
+\begin_layout Section
+Objetivos
 \end_layout
 
 \begin_layout Standard
-3.
- PALABRAS CLAVE
+Se presenta los objetivos fundamentales de nuestra investigación
+\end_layout
+
+\begin_layout Subsection
+Objetivo General.
 \end_layout
 
 \begin_layout Standard
-4.
- LÍNEA DE INVESTIGACIÓN
+\paragraph_spacing double
+\align block
+Desarrollar una base conceptual acerca de los sistemas de información geográfico
+s y su aplicación en geografía
+\end_layout
+
+\begin_layout Subsection
+Objetivo Específicos
+\end_layout
+
+\begin_layout Enumerate
+Analizar la base paradigmática que une a la geografía, la cartografía digital
+ y la geomática.
+\end_layout
+
+\begin_layout Enumerate
+Determinar los orígenes de los sistemas de información geográfico.
+\end_layout
+
+\begin_layout Section
+Antecedentes.
+\end_layout
+
+\begin_layout Section
+Método a seguir
 \end_layout
 
 \begin_layout Standard
 Documental
 \end_layout
 
-\begin_layout Standard
-5.
- PROFESOR TUTOR SUGERIDO
+\begin_layout Section
+Breve descripción del método a seguir.
 \end_layout
 
-\begin_layout Standard
-Nelly García, Juan Carlos Velásquez.
- 
+\begin_layout Section
+Procedimientos metodológicos.
 \end_layout
 
-\begin_layout Standard
-6.
- PLANTEAMIENTO DEL PROBLEMA A INVESTIGAR.
+\begin_layout Section
+Fuentes de información
 \end_layout
 
-\begin_layout Standard
-7.
- PREGUNTAS DE INVESTIGACIÓN.
+\begin_layout Section
+Análisis o procesamiento de la información:
 \end_layout
 
-\begin_layout Standard
-1.-
+\begin_layout Section
+Presentación de los resultados (nº de capítulos)
 \end_layout
 
-\begin_layout Standard
-2.-
+\begin_layout Section
+\paragraph_spacing double
+Plan de trabajo.
 \end_layout
 
-\begin_layout Standard
-3.-
+\begin_layout Section
+Referencias
 \end_layout
 
-\begin_layout Standard
-8.
- HIPÓTESIS DE TRABAJO (SI LAS HAY).
+\begin_layout Subsection
+Bibliohemerográficas.
 \end_layout
 
-\begin_layout Standard
-1.-
-\end_layout
-
-\begin_layout Standard
-2.-
-\end_layout
-
-\begin_layout Standard
-3.-
-\end_layout
-
-\begin_layout Standard
-9 OBJETIVOS DEL TRABAJO.
-\end_layout
-
-\begin_layout Standard
-OBJETIVO GENERAL
-\end_layout
-
-\begin_layout Standard
-OBJETIVOS PARTICULARES 1.-
-\end_layout
-
-\begin_layout Standard
-2.-
-\end_layout
-
-\begin_layout Standard
-3.-
-\end_layout
-
-\begin_layout Standard
-4.-
-\end_layout
-
-\begin_layout Standard
-5.- 10.
- ANTECEDENTES.
-\end_layout
-
-\begin_layout Standard
-11.- METODO A SEGUIR (ANALÍTICO, CIENTÍFICO, SINTESIS, DOCUMENTAL, REFLEXIÓN
- TEÓRICA)
-\end_layout
-
-\begin_layout Standard
-BREVE DESCRIPCIÓN DEL MÉTODO A SEGUIR.
-\end_layout
-
-\begin_layout Standard
-12.
- PROCEDIMIENTOS METODOLÓGICOS.
-\end_layout
-
-\begin_layout Standard
-1.- FUENTES DE INFORMACIÓN:
-\end_layout
-
-\begin_layout Standard
-2.- ANÁLISIS O PRECESAMIENTO DE LA INFORMACIÓN:
-\end_layout
-
-\begin_layout Standard
-3- PRESENTACIÓN DE LOS RESULTADOS (Nº DE CAPÍTULOS)
-\end_layout
-
-\begin_layout Standard
-13 PLAN DE TRABAJO.
-\end_layout
-
-\begin_layout Standard
-14.
- REFERENCIAS BIBLIOHEMEROGRÁFICAS.
-\end_layout
-
-\begin_layout Standard
-ELABORADO POR CARLOS AMAYA MÉRIDA, 09.02.2007.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection
 Bibliografía consultada:
 \end_layout
 
 \begin_layout Standard
-1.- Carlos E.
+Ejemplos 1.- Carlos E.
  Méndez A.
  2003.
  Metodología.

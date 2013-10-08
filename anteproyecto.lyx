@@ -34,7 +34,7 @@ foottoend
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\spacing single
+\spacing onehalf
 \use_hyperref true
 \pdf_title "Sistemas de Información Geográfica y su aplicabilidad en Geografía "
 \pdf_author "Angel Felix Garcia Molina"
@@ -71,7 +71,7 @@ foottoend
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation 1cm
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -87,7 +87,7 @@ foottoend
 
 \begin_layout Title
 Anteproyecto de Trabajo Especial de Grado - Sistemas de Información Geográfica
- y su aplicabilidad en Geografía 
+ y su Aplicabilidad en Geografía 
 \end_layout
 
 \begin_layout Author
@@ -95,14 +95,24 @@ Br.
  Ángel Félix García Molina
 \end_layout
 
-\begin_layout Section*
+\begin_layout Right Header
+Br.
+ Ángel Félix García Molina
+\end_layout
+
+\begin_layout Left Header
 \paragraph_spacing onehalf
+Sistemas de Información Geográfica y su Aplicabilidad en Geografía
+\end_layout
+
+\begin_layout Section*
 Palabras clave 
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
-Aqui van las palabras clave
+\paragraph_spacing double
+\align block
+Sistemas, Información Geográfica, Cartografía Digital, Geomática.
 \end_layout
 
 \begin_layout Section*
@@ -111,25 +121,24 @@ Línea de investigación
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
-Nuestra linea de investigación sera fundamentalmente documental a fin de
- analizar los distintos aspectos que rodean, desde el punto de vista conceptual,
- los sistemas de información geografico y de como estos se presentan como
+\paragraph_spacing double
+\align block
+Nuestra linea de investigación es fundamentalmente documental a fin de analizar
+ los distintos aspectos que rodean, desde el punto de vista conceptual,
+ los sistemas de información geográfico y de como estos se presentan como
  una herramienta primordial a la hora de manejar información espacial, en
- este sentido los SIG contienen un profundo bagaje que emana de convinación
+ este sentido los SIG contienen un profundo bagaje que emana de combinación
  de varias ciencias tales como la cartografía, la informática y las mima
- geografia.
+ geografía.
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\align block
 En este sentido compilaremos las bases teóricas de las cuales parten los
  principios en los que se sustentan a fin de darle un marco referencial
- preciso que funcione de soporte y que además nos esclaresca el rol y la
+ preciso que funcione de soporte y que además nos esclarezca el rol y la
  relación de la geografía con tan sustancioso desarrollo tecnológico.
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section*
@@ -137,8 +146,42 @@ Tutores
 \end_layout
 
 \begin_layout Standard
-Nelly García, Juan Carlos Velásquez.
+Ing.
+ Nelly García
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tutora principal: Profesora de la cátedra de Programación Digital de la
+ Escuela de Geografía
+\end_layout
+
+\end_inset
+
+, Geog.
+ Juan Carlos Velásquez
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Tutor Suplente: Profesor de la cátedra de Metodología de Investigación
+\end_layout
+
+\end_inset
+
+.
  
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align block
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -146,14 +189,16 @@ Planteamiento del Problema.
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
+\align block
 El uso de las herramientas que definen un sistema de información geográfico
  permiten manejar la información geoespacial de manera eficaz, en este sentido
  agiliza la toma de decisiones para la planificación, que uno de los pilares
- fundamentales que deriban de toda investigación geográfica.
+ fundamentales que derivan de toda investigación geográfica.
  El manejo eficiente de una gran cantidad datos espaciales solo es posible
  a través de un SIG ya que esto deriva en la generación de información que
  nos permitirá un mejor y mayor desempeño a la hora de presentar resultados
- de la actividades derivadas de la investigación gepgráfica.
+ de la actividades derivadas de la investigación geográfica.
  
 \end_layout
 
@@ -162,114 +207,122 @@ Preguntas de Investigación.
 \end_layout
 
 \begin_layout Standard
-1.-
+\paragraph_spacing double
+\align block
+Los siguientes cuestionamientos se establecen con el fin de dar a la investigaci
+ón una ruta que permita seguir con claridad el proceso de investigación
+ que nos planteamos.
+ En este sentido no pretende ser un alfa y omega para este desarrollo sin
+ embargo se presentan como una guía necesaria para la continuidad y direccionali
+dad requeridos para que el flujo del contenido se presente con claridad
+ y coherencia.
+ 
 \end_layout
 
-\begin_layout Standard
-2.-
+\begin_layout Subsection
+¿Cuáles son los aportes que realiza la geografía, a través de la cartografía,
+ a la construcción de los sistemas de información geográficos?.
 \end_layout
 
-\begin_layout Standard
-3.-
+\begin_layout Subsection
+¿En qué corriente de la cartografía que se sustentan los Sistemas de Información
+ Geográficos?.
 \end_layout
 
-\begin_layout Section
-Hipótesis de trabajo (Si las hay).
+\begin_layout Subsection
+¿Cuál es papel que juegan los SIG como herramientas para el manejo de la
+ información espacial dentro de la investigación geográfica?.
+ 
 \end_layout
 
-\begin_layout Standard
-1.-
-\end_layout
-
-\begin_layout Standard
-2.-
-\end_layout
-
-\begin_layout Standard
-3.-
+\begin_layout Subsection
+¿Cuáles son los paradigmas de la geomática como ciencia auxiliar de la geografía
+?
 \end_layout
 
 \begin_layout Section
 Objetivos
 \end_layout
 
+\begin_layout Standard
+Se presenta los objetivos fundamentales de nuestra investigación
+\end_layout
+
 \begin_layout Subsection
 Objetivo General.
 \end_layout
 
+\begin_layout Standard
+\paragraph_spacing double
+\align block
+Desarrollar una base conceptual acerca de los sistemas de información geográfico
+s y su aplicación en geografía
+\end_layout
+
 \begin_layout Subsection
-Objetivo Especificos
+Objetivo Específicos
 \end_layout
 
-\begin_layout Standard
-1.-
+\begin_layout Subsubsection
+Analizar la base paradigmática que une a la geografía, la cartografía digital
+ y la geomática.
 \end_layout
 
-\begin_layout Standard
-2.-
-\end_layout
-
-\begin_layout Standard
-3.-
-\end_layout
-
-\begin_layout Standard
-4.-
-\end_layout
-
-\begin_layout Standard
-5.- 
+\begin_layout Subsubsection
+Determinar los orígenes de los sistemas de información geográfico.
 \end_layout
 
 \begin_layout Section
 Antecedentes.
 \end_layout
 
-\begin_layout Standard
-METODO A SEGUIR (ANALÍTICO, CIENTÍFICO, SINTESIS, DOCUMENTAL, REFLEXIÓN
- TEÓRICA)
+\begin_layout Section
+Método a seguir
 \end_layout
 
 \begin_layout Standard
-BREVE DESCRIPCIÓN DEL MÉTODO A SEGUIR.
+Documental
 \end_layout
 
-\begin_layout Standard
-12.
- PROCEDIMIENTOS METODOLÓGICOS.
+\begin_layout Section
+Breve descripción del método a seguir.
 \end_layout
 
-\begin_layout Standard
-1.- FUENTES DE INFORMACIÓN:
+\begin_layout Section
+Procedimientos metodológicos.
 \end_layout
 
-\begin_layout Standard
-2.- ANÁLISIS O PRECESAMIENTO DE LA INFORMACIÓN:
+\begin_layout Section
+Fuentes de información
 \end_layout
 
-\begin_layout Standard
-3- PRESENTACIÓN DE LOS RESULTADOS (Nº DE CAPÍTULOS)
+\begin_layout Section
+Análisis o procesamiento de la información:
 \end_layout
 
-\begin_layout Standard
-13 PLAN DE TRABAJO.
+\begin_layout Section
+Presentación de los resultados (nº de capítulos)
 \end_layout
 
-\begin_layout Standard
-14.
- REFERENCIAS BIBLIOHEMEROGRÁFICAS.
+\begin_layout Section
+\paragraph_spacing double
+Plan de trabajo.
 \end_layout
 
-\begin_layout Standard
-ELABORADO POR CARLOS AMAYA MÉRIDA, 09.02.2007.
+\begin_layout Section
+Referencias
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection
+Bibliohemerográficas.
+\end_layout
+
+\begin_layout Subsection
 Bibliografía consultada:
 \end_layout
 
 \begin_layout Standard
-1.- Carlos E.
+Ejemplos 1.- Carlos E.
  Méndez A.
  2003.
  Metodología.
